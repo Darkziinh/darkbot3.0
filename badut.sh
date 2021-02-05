@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="Dark1"
+paku="lah opo"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -77,23 +77,16 @@ cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
-git clone https://github.com/Darkziinh/kp
-cd kp
-pkg install unzip
-pkg install nodejs
-pkg inatall ffmpeg
-pkg install tesseract
-unzip w.zip
-cd w
-bash install.sh
-sleep 2
-echo ""
+git clone https://github.com/Darkziinh/api-msg1
+cd darkbot3.0
+chmod +x badut.sh
 echo "$verde"
-echo "depois disso, haverá um código qr...."
+echo "pfv faça seu login dnv, por segurança...."
 sleep 1
-echo "Prepare 2 telefones celulares para suprimir o QR!!"
+echo "sistema de segurança ativado, Faça login dnv!"
 sleep 2
-echo "carga......."
+echo "carregando o login......"
 sleep 7
-node index.js
+sh badut.sh
+echo ""
 fi
