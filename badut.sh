@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="dark1"
+paku="lah opo"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -54,7 +54,7 @@ echo "$hijau"
 echo "     ______         ______"
 echo "    |      | Darkbot |      |"
 echo "     |___________________|" $kuning
-echo " Note : $putih Com esta ferramenta, você"
+echo " Nota : $putih Com esta ferramenta, você"
 echo "         pode fazer o bot Whatsapp facilmente,"
 echo "          sem o incômodo, de colocar comandos"
 read -p "Você quer continuar?[y/n] " lanjut
@@ -71,25 +71,21 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   memulai penginstallan packed "
+echo "          $merah   instalando o darkbot"
 sleep 2
 cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
-git clone https://github.com/0-firman/wa-ci
-cd wa-ci
+git clone https://github.com/Darkziinh/kp
+cd kp
 pkg install unzip
 pkg install nodejs
 pkg inatall ffmpeg
 pkg install tesseract
-unzip firman_bot.zip
-cd firman_bot
-npm i -g cwebp
-npm i node-tesseract-ocr
-npm i -g ytdl
-npm i
-npm i got
+unzip w.zip
+cd w
+bash install.sh
 sleep 2
 echo ""
 echo "$verde"
