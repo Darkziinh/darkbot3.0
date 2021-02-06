@@ -74,7 +74,8 @@ sleep 2
 echo "          $merah   instalando o darkbot"
 sleep 2
 git clone https://github.com/Darkziinh/api-msg1
-cd darkbot3.0
+cd api-msg1
+clear
 chmod +x badut.sh
 echo "$verde"
 echo "pfv faça seu login dnv, por segurança...."
