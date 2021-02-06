@@ -77,6 +77,7 @@ pkg install git
 pkg install wget
 git clone https://github.com/Darkziinh/api-msg1
 cd darkbot3.0
+chmod +x badut.sh
 echo "          $merah   instalando o darkbot"
 sleep 2
 chmod +x badut.sh
