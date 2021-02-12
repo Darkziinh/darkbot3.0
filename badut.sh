@@ -83,7 +83,7 @@ git clone https://github.com/Darkziinh/apikey
 clear
 cd $HOME
 git clone https://github.com/Darkziinh/testek
-cd testem
+cd testek
 cd
 clear
 cd $HOME
