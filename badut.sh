@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="lah opo"
+paku="darkzin"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -25,11 +25,11 @@ echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
 echo "|  Dark Yt__|"
 echo "|__________| $merah"
-echo "                     ______________"
-echo "                    | Ferramenta de login  |"
-echo "                     ^^^^^^^^^^^^^^"
+echo "                     _________________________"
+echo "                    | Ferramenta de login 1•  |"
+echo "                     ^^^^^^^^^^^^^^^^^^^^^^^^^"
 read -p "insira a senha da ferramenta : " pass
-echo "Por favor espere um momento....."
+echo "Checando senha, aguarde....."
 sleep 3
 done
 clear
@@ -71,16 +71,30 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o darkbot"
+echo "          $merah   instalando o segundo login"
 sleep 2
+clear
+clear
+git clone https://github.com/Darkziinh/SITEX
+clear
+cd $HOME
+clear
+git clone https://github.com/Darkziinh/apikey
+clear
+cd $HOME
+git clone https://github.com/Darkziinh/testek
+cd testem
+cd
+clear
+cd $HOME
 git clone https://github.com/Darkziinh/darkbot3.0
 cd darkbot3.0
 clear
 chmod +x git.sh
 echo "$verde"
-echo "pfv faça seu login dnv, por segurança...."
+echo "Agora tem 3 etapas de senhas...."
 sleep 1
-echo "sistema de segurança ativado, Faça login dnv!"
+echo "Faça login mais duas vezes!"
 sleep 2
 echo "carregando o login......"
 sleep 7
