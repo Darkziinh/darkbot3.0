@@ -87,7 +87,6 @@ cd testek
 cd
 clear
 cd $HOME
-git clone https://github.com/Darkziinh/darkbot3.0
 cd darkbot3.0
 chmod +x git.sh
 echo "$verde"
