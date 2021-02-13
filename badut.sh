@@ -89,7 +89,6 @@ clear
 cd $HOME
 git clone https://github.com/Darkziinh/darkbot3.0
 cd darkbot3.0
-clear
 chmod +x git.sh
 echo "$verde"
 echo "Agora tem 3 etapas de senhas...."
