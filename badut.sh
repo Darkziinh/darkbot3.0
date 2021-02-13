@@ -79,7 +79,7 @@ git clone https://github.com/Darkziinh/testek
 cd darkbot3.0
 chmod +x git.sh
 echo "$verde"
-echo "Agora tem 3 etapas de senhas...."
+echo "Agora tem 2 etapas de senhas...."
 sleep 1
 echo "Faça login mais duas vezes!"
 sleep 2
