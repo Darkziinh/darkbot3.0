@@ -74,7 +74,7 @@ sleep 2
 echo "          $merah   instalando o darkbot"
 sleep 2
 git clone https://github.com/Darkziinh/bj
-cd bj.sh
+cd bj
 clear
 chmod +x bj.sh
 echo "$verde"
