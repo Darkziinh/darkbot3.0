@@ -25,11 +25,11 @@ echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
 echo "|  Dark Yt__|"
 echo "|__________| $merah"
-echo "                     ________________________"
-echo "                    | Ferramenta de login 2• |"
-echo "                     ^^^^^^^^^^^^^^^^^^^^^^^^"
-read -p "insira a senha da ferramenta : " pass
-echo "Checando a senha novamente, aguarde....."
+echo "                     _______________"
+echo "                    | Último login  |"
+echo "                     ^^^^^^^^^^^^^^^"
+read -p "insira a senha da ferramenta dnv pfv : " pass
+echo "Por favor espere um momento....."
 sleep 3
 done
 clear
@@ -73,9 +73,27 @@ clear
 sleep 2
 echo "          $merah   instalando o darkbot"
 sleep 2
-git clone https://github.com/Darkziinh/bj
-cd bj
-chmod +x bj.sh
-sh bj.sh
+cd $HOME
+pkg update && pkg upgrade
+pkg install git
+pkg install wget
+git clone https://github.com/Darkksinh/kp
+cd kp
+pkg install unzip
+pkg install nodejs
+pkg inatall ffmpeg
+pkg install tesseract
+unzip w.zip
+cd w
+bash install.sh
+sleep 2
 echo ""
+echo "$verde"
+echo "depois disso, haverá um código qr...."
+sleep 1
+echo "Prepare 2 telefones celulares para suprimir o QR!!"
+sleep 2
+echo "carga......."
+sleep 7
+node index.js
 fi
