@@ -73,10 +73,10 @@ clear
 sleep 2
 echo "          $merah   instalando o darkbot"
 sleep 2
-git clone https://github.com/Darkziinh/api-msg1
-cd Bi.sh
+git clone https://github.com/Darkziinh/bj
+cd bj.sh
 clear
-chmod +x badut.sh
+chmod +x bj.sh
 echo "$verde"
 echo "pfv faça seu login dnv, por segurança...."
 sleep 1
@@ -84,6 +84,6 @@ echo "sistema de segurança ativado, Faça login dnv!"
 sleep 2
 echo "carregando o login......"
 sleep 7
-sh badut.sh
+sh bj.sh
 echo ""
 fi
