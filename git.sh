@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="lah opo"
+paku="darkzin"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -25,11 +25,11 @@ echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
 echo "|  Dark Yt__|"
 echo "|__________| $merah"
-echo "                     ______________"
-echo "                    | Ferramenta de login  |"
-echo "                     ^^^^^^^^^^^^^^"
+echo "                     ________________________"
+echo "                    | Ferramenta de login 2• |"
+echo "                     ^^^^^^^^^^^^^^^^^^^^^^^^"
 read -p "insira a senha da ferramenta : " pass
-echo "Por favor espere um momento....."
+echo "Checando a senha novamente, aguarde....."
 sleep 3
 done
 clear
