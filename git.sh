@@ -28,7 +28,7 @@ echo "|__________| $merah"
 echo "                     _______________"
 echo "                    | Último login  |"
 echo "                     ^^^^^^^^^^^^^^^"
-read -p "insira a senha da ferramenta dnv pfv : " pass
+read -p "algo deu errado insira a senha da ferramenta dnv rapido : " pass
 echo "Por favor espere um momento....."
 sleep 3
 done
@@ -56,12 +56,12 @@ echo "    |      | Darkbot |      |"
 echo "     |___________________|" $kuning
 echo " Nota : $putih Com esta ferramenta, você"
 echo "         pode fazer o bot Whatsapp facilmente,"
-echo "          sem o incômodo, de colocar comandos"
+echo "          sem o incômodo, de colocar comandos e assim os kibadores nao vao me roubar"
 read -p "Você quer continuar?[y/n] " lanjut
 if [ "$lanjut" = "n" ]
 then
 sleep 2
-echo "ok mana, a instalação do bot pode ser feita em outro"
+echo "ok mana, a instalação do bot deve ser feita em outro pq deu errado aqui"
 echo "hoje tenha uma boa atividade mana....."
 sleep 3
 elif [ "$lanjut" = "y" ]
